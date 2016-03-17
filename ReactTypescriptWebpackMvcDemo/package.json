@@ -1,0 +1,22 @@
+{
+  "name": "ReactTypescriptWebpackMvcDemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack -w",
+    "postinstall": "tsd reinstall --overwrite --save"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "devDependencies": {
+    "ts-loader": "^0.8.1",
+    "typescript": "^1.8.9",
+    "webpack": "^1.12.14"
+  }
+}
